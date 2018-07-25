@@ -54,7 +54,7 @@ double hgmm(uint32_t f){
 	// correct would be
 	//double hgmm = temp * 302.34;
 	// calibrated
-	double hgmm = temp * 190.0;
+	double hgmm = temp * 190.5;
 	return hgmm;
 }
 double volt = 0;

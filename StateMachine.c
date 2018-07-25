@@ -51,8 +51,8 @@ state_enum No_Event_Handler(void){
 										entered_parametric_timestamp = getTimeStructRTC();
 
 										//Temporary_measurements(param_num_number, param_period_number);
-										//mesurements_for_testing(param_num_number, param_period_number);
-										getVDDdatas();
+										mesurements_for_testing(param_num_number, param_period_number);
+										//getVDDdatas();
 
 										GPIO_IntClear(RX_PIN_INT_MASK);									//enable RFDuino IT or else we won't be able to stop this state
 										GPIO_IntEnable(RX_PIN_INT_MASK);
